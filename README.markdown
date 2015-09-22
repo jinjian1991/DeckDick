@@ -8,7 +8,7 @@ iOS 9 Content Blocker drama and wanted to play with the Content Blocking
 API a little. I firmly believe the best way to counter hypocrisy is
 with satire. Enjoy.
 
-You can more information on creating iOS (and OS X) content blockers in
+You can get more information on creating iOS (and OS X) content blockers in
 Session 511 of WWDC 2015. Also there's some great information on the
 WebKit blog:
 https://www.webkit.org/blog/3476/content-blockers-first-look/
