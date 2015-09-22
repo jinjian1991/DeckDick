@@ -24,11 +24,28 @@ class ViewController: UIViewController {
     }
 
     @IBAction func reloadContentBlocker() {
-//        let plugins = NSBundle.mainBundle().bundleURL
-        SFContentBlockerManager.reloadContentBlockerWithIdentifier("io.schwa.Deckdick.DeckDickContentBlocker") {
-            (error) in
-            print("Reloaded: \(error)")
+        let url = NSURL(string:"https://schwa.github.io/DeckDick/rules/BlockerList.json")!
+        let task = NSURLSession.sharedSession().downloadTaskWithURL(url) {
+            (url, response, error) in
+            guard let sourceURL = url else {
+                print("No url: \(error)")
+                return
+            }
+
+            let groupDirectoryURL = NSFileManager().containerURLForSecurityApplicationGroupIdentifier("group.io.schwa.DeckDick")
+
+            let destinationURL = groupDirectoryURL?.URLByAppendingPathComponent("BlockerList.json")
+            print(destinationURL!)
+
+            if destinationURL!.checkResourceIsReachableAndReturnError(nil) {
+                print(try? NSFileManager().removeItemAtURL(destinationURL!))
+            }
+
+            try! NSFileManager().moveItemAtURL(sourceURL, toURL: destinationURL!)
         }
+    
+
+        task.resume()
     }
 
     @IBAction func openSampleSite(sender:UIButton) {
@@ -45,7 +62,4 @@ class ViewController: UIViewController {
             print("Reloaded: \(error)")
         }
     }
-
-
 }
-
