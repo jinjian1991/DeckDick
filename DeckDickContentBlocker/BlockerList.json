@@ -1,0 +1,18 @@
+[
+    {
+        "action": { "type": "css-display-none", "selector": "#adcontent" },
+        "trigger": { "url-filter": ".*" }
+    },
+    {
+        "action": { "type": "css-display-none", "selector": "#adlabel" },
+        "trigger": { "url-filter": ".*" }
+    },
+    {
+        "action": { "type": "css-display-none", "selector": "#SidebarTheDeck" },
+        "trigger": { "url-filter": ".*" }
+    },
+    {
+        "action": { "type": "block" },
+        "trigger": { "url-filter": ".*//.decknetwork.net", "resource-type": ["script"], "load-type": ["third-party"] }
+    }
+]

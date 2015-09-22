@@ -1,0 +1,6 @@
+[
+    {
+        "action": { "type": "css-display-none", "selector": "#lkjdsgljsdgljsdlkgj" },
+        "trigger": { "url-filter": ".*" }
+    }
+]

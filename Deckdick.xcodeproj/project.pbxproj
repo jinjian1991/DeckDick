@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		459E94F31BB1AAE3003E552B /* Disabled.json in Resources */ = {isa = PBXBuildFile; fileRef = 459E94F21BB1AAE3003E552B /* Disabled.json */; settings = {ASSET_TAGS = (); }; };
+		45CE7A891BB197E7002CF3B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CE7A881BB197E7002CF3B7 /* AppDelegate.swift */; };
+		45CE7A8B1BB197E7002CF3B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CE7A8A1BB197E7002CF3B7 /* ViewController.swift */; };
+		45CE7A8E1BB197E7002CF3B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CE7A8C1BB197E7002CF3B7 /* Main.storyboard */; };
+		45CE7A901BB197E7002CF3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CE7A8F1BB197E7002CF3B7 /* Assets.xcassets */; };
+		45CE7A931BB197E7002CF3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CE7A911BB197E7002CF3B7 /* LaunchScreen.storyboard */; };
+		45CE7AB71BB19940002CF3B7 /* BlockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 45CE7AB61BB19940002CF3B7 /* BlockerList.json */; };
+		45CE7AB91BB19940002CF3B7 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CE7AB81BB19940002CF3B7 /* ActionRequestHandler.swift */; };
+		45CE7ABD1BB19940002CF3B7 /* DeckDickContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 45CE7AB41BB19940002CF3B7 /* DeckDickContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45CE7ABB1BB19940002CF3B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45CE7A7D1BB197E7002CF3B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45CE7AB31BB19940002CF3B7;
+			remoteInfo = DeckDickContentBlocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45CE7AC11BB19940002CF3B7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				45CE7ABD1BB19940002CF3B7 /* DeckDickContentBlocker.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		459E94F01BB1A6AC003E552B /* Deckdick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Deckdick.entitlements; sourceTree = "<group>"; };
+		459E94F11BB1A6EE003E552B /* DeckDickContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DeckDickContentBlocker.entitlements; sourceTree = "<group>"; };
+		459E94F21BB1AAE3003E552B /* Disabled.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Disabled.json; sourceTree = "<group>"; };
+		45CE7A851BB197E7002CF3B7 /* Deckdick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deckdick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CE7A881BB197E7002CF3B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45CE7A8A1BB197E7002CF3B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45CE7A8D1BB197E7002CF3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45CE7A8F1BB197E7002CF3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45CE7A921BB197E7002CF3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45CE7A941BB197E7002CF3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CE7AB41BB19940002CF3B7 /* DeckDickContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeckDickContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CE7AB61BB19940002CF3B7 /* BlockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BlockerList.json; sourceTree = "<group>"; };
+		45CE7AB81BB19940002CF3B7 /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
+		45CE7ABA1BB19940002CF3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45CE7A821BB197E7002CF3B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CE7AB11BB19940002CF3B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45CE7A7C1BB197E7002CF3B7 = {
+			isa = PBXGroup;
+			children = (
+				45CE7A871BB197E7002CF3B7 /* Deckdick */,
+				45CE7AB51BB19940002CF3B7 /* DeckDickContentBlocker */,
+				45CE7A861BB197E7002CF3B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45CE7A861BB197E7002CF3B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45CE7A851BB197E7002CF3B7 /* Deckdick.app */,
+				45CE7AB41BB19940002CF3B7 /* DeckDickContentBlocker.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45CE7A871BB197E7002CF3B7 /* Deckdick */ = {
+			isa = PBXGroup;
+			children = (
+				459E94F01BB1A6AC003E552B /* Deckdick.entitlements */,
+				45CE7A881BB197E7002CF3B7 /* AppDelegate.swift */,
+				45CE7A8A1BB197E7002CF3B7 /* ViewController.swift */,
+				45CE7A8C1BB197E7002CF3B7 /* Main.storyboard */,
+				45CE7A8F1BB197E7002CF3B7 /* Assets.xcassets */,
+				45CE7A911BB197E7002CF3B7 /* LaunchScreen.storyboard */,
+				45CE7A941BB197E7002CF3B7 /* Info.plist */,
+			);
+			path = Deckdick;
+			sourceTree = "<group>";
+		};
+		45CE7AB51BB19940002CF3B7 /* DeckDickContentBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				459E94F11BB1A6EE003E552B /* DeckDickContentBlocker.entitlements */,
+				45CE7AB61BB19940002CF3B7 /* BlockerList.json */,
+				459E94F21BB1AAE3003E552B /* Disabled.json */,
+				45CE7AB81BB19940002CF3B7 /* ActionRequestHandler.swift */,
+				45CE7ABA1BB19940002CF3B7 /* Info.plist */,
+			);
+			path = DeckDickContentBlocker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45CE7A841BB197E7002CF3B7 /* Deckdick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CE7A971BB197E7002CF3B7 /* Build configuration list for PBXNativeTarget "Deckdick" */;
+			buildPhases = (
+				45CE7A811BB197E7002CF3B7 /* Sources */,
+				45CE7A821BB197E7002CF3B7 /* Frameworks */,
+				45CE7A831BB197E7002CF3B7 /* Resources */,
+				45CE7AC11BB19940002CF3B7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45CE7ABC1BB19940002CF3B7 /* PBXTargetDependency */,
+			);
+			name = Deckdick;
+			productName = Deckdick;
+			productReference = 45CE7A851BB197E7002CF3B7 /* Deckdick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45CE7AB31BB19940002CF3B7 /* DeckDickContentBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CE7ABE1BB19940002CF3B7 /* Build configuration list for PBXNativeTarget "DeckDickContentBlocker" */;
+			buildPhases = (
+				45CE7AB01BB19940002CF3B7 /* Sources */,
+				45CE7AB11BB19940002CF3B7 /* Frameworks */,
+				45CE7AB21BB19940002CF3B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeckDickContentBlocker;
+			productName = DeckDickContentBlocker;
+			productReference = 45CE7AB41BB19940002CF3B7 /* DeckDickContentBlocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45CE7A7D1BB197E7002CF3B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = schwa.io;
+				TargetAttributes = {
+					45CE7A841BB197E7002CF3B7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6E23EP94PG;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					45CE7AB31BB19940002CF3B7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6E23EP94PG;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 45CE7A801BB197E7002CF3B7 /* Build configuration list for PBXProject "Deckdick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45CE7A7C1BB197E7002CF3B7;
+			productRefGroup = 45CE7A861BB197E7002CF3B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45CE7A841BB197E7002CF3B7 /* Deckdick */,
+				45CE7AB31BB19940002CF3B7 /* DeckDickContentBlocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45CE7A831BB197E7002CF3B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CE7A931BB197E7002CF3B7 /* LaunchScreen.storyboard in Resources */,
+				45CE7A901BB197E7002CF3B7 /* Assets.xcassets in Resources */,
+				45CE7A8E1BB197E7002CF3B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CE7AB21BB19940002CF3B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CE7AB71BB19940002CF3B7 /* BlockerList.json in Resources */,
+				459E94F31BB1AAE3003E552B /* Disabled.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45CE7A811BB197E7002CF3B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CE7A8B1BB197E7002CF3B7 /* ViewController.swift in Sources */,
+				45CE7A891BB197E7002CF3B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CE7AB01BB19940002CF3B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CE7AB91BB19940002CF3B7 /* ActionRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45CE7ABC1BB19940002CF3B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45CE7AB31BB19940002CF3B7 /* DeckDickContentBlocker */;
+			targetProxy = 45CE7ABB1BB19940002CF3B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45CE7A8C1BB197E7002CF3B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CE7A8D1BB197E7002CF3B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45CE7A911BB197E7002CF3B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CE7A921BB197E7002CF3B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45CE7A951BB197E7002CF3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45CE7A961BB197E7002CF3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45CE7A981BB197E7002CF3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Deckdick/Deckdick.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Deckdick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.schwa.Deckdick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		45CE7A991BB197E7002CF3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Deckdick/Deckdick.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Deckdick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.schwa.Deckdick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		45CE7ABF1BB19940002CF3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = DeckDickContentBlocker/DeckDickContentBlocker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DeckDickContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.schwa.Deckdick.DeckDickContentBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		45CE7AC01BB19940002CF3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = DeckDickContentBlocker/DeckDickContentBlocker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DeckDickContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.schwa.Deckdick.DeckDickContentBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45CE7A801BB197E7002CF3B7 /* Build configuration list for PBXProject "Deckdick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CE7A951BB197E7002CF3B7 /* Debug */,
+				45CE7A961BB197E7002CF3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CE7A971BB197E7002CF3B7 /* Build configuration list for PBXNativeTarget "Deckdick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CE7A981BB197E7002CF3B7 /* Debug */,
+				45CE7A991BB197E7002CF3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CE7ABE1BB19940002CF3B7 /* Build configuration list for PBXNativeTarget "DeckDickContentBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CE7ABF1BB19940002CF3B7 /* Debug */,
+				45CE7AC01BB19940002CF3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45CE7A7D1BB197E7002CF3B7 /* Project object */;
+}
