@@ -1,6 +1,6 @@
 [
     {
-        "action": { "type": "css-display-none", "selector": "#lkjdsgljsdgljsdlkgj" },
-        "trigger": { "url-filter": ".*" }
+        "action": { "type": "css-display-none", "selector": "#youneedatleastonetrigger" },
+        "trigger": { "url-filter": "inyourjsontokeeptheoshappy" }
     }
 ]
